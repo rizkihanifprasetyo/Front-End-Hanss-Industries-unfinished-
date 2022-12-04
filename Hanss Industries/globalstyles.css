@@ -1,0 +1,259 @@
+
+html{
+    overflow-x: hidden;
+}
+/* Variabel warna supaya tidak bingung */
+:root {
+    --color-primary: #2A4731;
+    --color-second: #6F8C64;
+    --color-yellow: #FDD584;
+    --color-black: #0D110F;
+    --color-cream: #ECE0D0;
+    --color-white: #ffffff;
+    --color-lightgray: #3C4048;
+}
+
+body {
+    background-color: var(--color-primary); 
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* tiap section 100px */
+
+
+/* responsif untuk screen/layar max ukuran 760px atau hape*/
+@media only screen and(max-width:760px){
+    section{
+        padding: 50px 0;
+    }
+}
+
+
+.container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Merriweather', serif;
+    
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    font-size: 1.8rem;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* Style untuk footer */
+    footer{
+        height: 30vh;
+    }
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        background-color: var(--color-black);
+    }
+    .footer__logo{
+        width: 350px;
+        padding-left: 5px;
+        margin-top: -50px;
+        
+    }
+    .footer__desc{
+        margin-top: -60px;
+        font-size: 1.4rem;
+        color: var(--color-yellow);
+        margin-bottom: 3rem;
+        padding-left: 40px;
+    }
+    .footer__socials h4{
+        margin-top: -20px;
+        font-size: 20px;
+        padding-left: 40px;
+    }
+    .footer__socials__title{
+        color: var(--color-yellow);
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    .footer__socials li{
+        display: inline-block;
+        margin-right: .5rem;
+    }
+    .footer__socials a{
+        padding: .5rem .8rem;
+        background-color: var(--color-black);
+        border: 1px solid var(--color-primary);
+        border-radius: 10px;
+    }
+    .footer__socials a:hover{
+        background-color: var(--color-primary);
+        transition: .3s ease-in-out;
+    }
+    .footer__socials svg{
+        width: 20px;
+        color: var(--color-yellow);
+    }
+    .footer__socials ul li a i{
+        font-size: 25px;
+        padding-top: 2px;
+        color: var(--color-yellow);
+    }
+    .footer__wrapper h3{
+        font-size: 20px;
+    }
+    .footer__text__title{
+        margin-bottom: 1rem;
+        color: var(--color-yellow);
+        font-weight: 600;
+    }
+    .footer__Text li a{
+        font-size: 18px;
+        margin-bottom: .5rem;
+        color: var(--color-second);
+        font-weight: 300;
+        line-height: 1.4rem;
+    }
+    .footer__Text li{
+        list-style-type: none;
+        margin-left: -40px;
+    }
+    .footer__Text a:hover{
+        color: var(--color-yellow);
+        transition: .3s ease-in-out;
+    }
+    #copyright{
+        background-color: var(--color-black);
+        padding-top: 10px;
+    }
+    .copyright__text{
+        margin-top: 5px;
+        font-size: 1rem;
+        text-align: center;
+        color: var(--color-yellow);
+    }
+        /* Layar Styling penuh Komputer */
+    @media only screen and (min-width: 768px){
+        footer{
+            padding-top: 1rem;
+            padding-bottom: 4rem;
+            background-color: var(--color-black);
+        }
+        .footer__wrapper{
+            flex-direction: row;
+        }
+        .footer__col1{
+            flex: 1;
+        }
+        .footer__col2,
+        .footer__col3,
+        .footer__col4 {
+            flex: 1;
+        }
+        .footer__col3{
+            margin-left: -200px;
+        }
+        .footer__col4{
+            margin-left: -200px;
+        }
+        .footer__desc{
+            max-width: 300px;
+            font-size: 1rem;
+            letter-spacing: .2px;
+            line-height: 30px;
+            margin-bottom: 2.5rem;
+        }
+        .footer__socials__title{
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .footer__text__title{
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .footer__Text a{
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+            line-height: 20px;
+        }
+        .footer__logo img{
+            width: 80%;
+        }
+        
+    }
+
+
+@media only screen and (max-width:925px){
+    footer{
+        height: 130vh;
+    }
+    .footer__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__col3{
+        margin-top: -50px;
+        margin-left: 0px;
+    }
+    .footer__col4{
+        margin-top: -50px;
+        margin-left: 0px;
+    }
+    .footer__col2,
+    .footer__col3,
+    .footer__col4{
+        padding-left: 40px;
+    }
+}
+@media only screen and (max-width:767px){
+    footer{
+        height: 150vh;
+    }
+}
+@media only screen and (max-width:535px){
+    footer{
+        height: 155vh;
+    }
+    #copyright{
+        height: 10vh;
+    }
+}
+@media only screen and (max-width:447px){
+    .footer__desc{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:430px){
+    .footer__col1 .footer__logo{
+        margin-left: -40px;
+}
+}
+@media only screen and (max-width:385px){
+    .footer__col1 .footer__logo{
+        margin-left: -70px;
+}
+}
+
+    /* End style FOOTER */
+

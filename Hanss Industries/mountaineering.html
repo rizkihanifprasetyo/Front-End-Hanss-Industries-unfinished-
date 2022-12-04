@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanss Industries | Mountaineering</title>
+
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- END Font Awesome Library -->
+    <!-- Font Website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- End Font Website -->
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" href="./img/logo/HanssIndustries1.png" type="image/x-icon">
+    <!-- END Link Favicon -->
+    <!-- aos library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="./globalstyles.css">
+    <link rel="stylesheet" href="./mountaineering.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- END CSS LINKS -->
+    <!-- CDN JS SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- END CDN JS SWIPER -->
+
+</head>
+
+<body>
+    <!--         NAVIGATION BAR SECTION          -->
+    <section class="navbar">
+        <nav class="nav">
+            <div class="nav-bar flex-row">
+                <div class="nav-brand">
+                    <a href="./index.html">
+                        <img src="./img/logo/HanssIndustries1.png" alt="hanss">
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li class="nav-link">
+                            <a href="./index.html" data-after="Home">Home</a>
+                        </li>
+                        <li class="nav-link" id="categories_li">
+                            <a href="./mountaineering.html" data-after="Categories" class="active">Categories<div
+                                    class="icon-small"><i class="fa-solid fa-sort-down"></i></div>
+                            </a>
+                            <div class="mega">
+                                <div class="container">
+                                    <div class="wrapper">
+                                        <div class="flexcol">
+                                            <div class="row">
+                                                <h4>Equipments</h4>
+                                                <ul class="equipments-brands">
+                                                    <li><a href="">Bag Cover</a></li>
+                                                    <li><a href="">Chair</a></li>
+                                                    <li><a href="">Climbing Equipment</a></li>
+                                                    <li><a href="">Compass</a></li>
+                                                    <li><a href="">Gloves</a></li>
+                                                    <li><a href="">Hammock</a></li>
+                                                    <li><a href="">Insect Protection</a></li>
+                                                    <li><a href="">Kitchenware</a></li>
+                                                    <li><a href="">Lighting Equipment</a></li>
+                                                    <li><a href="">Mat & Cot</a></li>
+                                                    <li><a href="">Pillow</a></li>
+                                                    <li><a href="">Pole</a></li>
+                                                    <li><a href="">Sleeping Bag</a></li>
+                                                    <li><a href="">Storage</a></li>
+                                                    <li><a href="">Tent Accessories</a></li>
+                                                    <li><a href="">etc</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="flexcol">
+                                            <div class="row">
+                                                <h4>Apparel</h4>
+                                                <ul class="apparel-brands">
+                                                    <li><a href="">Jacket</a></li>
+                                                    <li><a href="">Pants</a></li>
+                                                    <li><a href="">Shorts</a></li>
+                                                    <li><a href="">Top</a></li>
+                                                    <li><a href="">Baselayer</a></li>
+                                                    <li><a href="">Rainwear</a></li>
+                                                    <li><a href="">Sweater</a></li>
+                                                    <li><a href="">Vest</a></li>
+                                                    <li><a href="">Underwear</a></li>
+                                                    <li><a href="">Safety Coverall</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="flexcol">
+                                            <div class="row">
+                                                <h4>Bags</h4>
+                                                <ul class="bags-brands">
+                                                    <li><a href="">Backpack</a></li>
+                                                    <li><a href="">Shoulder Bag</a></li>
+                                                    <li><a href="">Cases</a></li>
+                                                    <li><a href="">Cycling Bag</a></li>
+                                                    <li><a href="">Duffle</a></li>
+                                                    <li><a href="">Pouch</a></li>
+                                                    <li><a href="">Waist Bag</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="flexcol">
+                                            <div class="row">
+                                                <h4>Footwear</h4>
+                                                <ul class="footwear-brands">
+                                                    <li><a href="">Sandal</a></li>
+                                                    <li><a href="">Shoes</a></li>
+                                                    <li><a href="">Boots</a></li>
+                                                    <li><a href="">Sock</a></li>
+                                                    <li><a href="">Sandal Eiger</a></li>
+                                                    <li><a href="">Shoelace</a></li>
+                                                    <li><a href="">Gaiter</a></li>
+                                                </ul>
+                                                <a href="#" class="view-all">View All Brands</a>
+                                            </div>
+                                        </div>
+                                        <div class="flexcol products">
+                                            <div class="row">
+                                                <div class="media">
+                                                    <div class="thumbnail object-cover">
+                                                        <a href="#">
+                                                            <img src="./img/categories/jacket2.jpg" alt="">
+                                                    </div>
+                                                    </a>
+                                                </div>
+                                                <div class="text-content">
+                                                    <h4>Most <br> Wanted!</h4>
+                                                    <a href="#" class="primary-button">Order Now!</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" data-after="Hot Offers">Hot Offers</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" data-after="My Carts">My Carts</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="./myaccount.html" data-after="My Account">My Account</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social text-gray">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--         END NAVIGATION BAR SECTION          -->
+
+    <!-- MAIN MOUNTAINEERING MENU SECTION -->
+    <section class="mountmenu">
+        <div class="header-main mobile-hide">
+            <div class="container">
+                <div class="wrapper flexitem">
+                    <div class="right hiding">
+                        <div class="search-box">
+                            <form action="" class="search">
+                                <span class="icon-large"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="search" placeholder="Search For Products">
+                                <button type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="sliders hidings">
+                        <div class="container">
+                            <div class="wrapper">
+                                <div class="myslider swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="item">
+                                                <div class="image object-cover">
+                                                    <img src="/img/categories/slider4.jpg" alt="">
+                                                </div>
+                                                <div class="text-content flexcol hikings-item">
+                                                    <h4>Hiking Footwear</h4>
+                                                    <h2>Come and Get it!<br><span>Brand New Footwear</span></h2>
+                                                    <a href="#" class="primary-button">Shop Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="item">
+                                                <div class="image object-cover">
+                                                    <img src="/img/categories/slider2.jpg" alt="">
+                                                </div>
+                                                <div class="text-content flexcol">
+                                                    <h4>Hiking Bags</h4>
+                                                    <h2>Come and Get it!<br><span>Brand New Bags</span></h2>
+                                                    <a href="#" class="primary-button">Shop Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="item">
+                                                <div class="image object-cover">
+                                                    <img src="/img/categories/slider7.jpg" alt="">
+                                                </div>
+                                                <div class="text-content flexcol">
+                                                    <h4>Hiking Equipments</h4>
+                                                    <h2>Come and Get it!<br><span>Brand New Equipments</span></h2>
+                                                    <a href="#" class="primary-button">Shop Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="item">
+                                                <div class="image object-cover">
+                                                    <img src="/img/categories/slider5.jpg" alt="">
+                                                </div>
+                                                <div class="text-content flexcol">
+                                                    <h4>Sleeping Bags</h4>
+                                                    <h2>Come and Get it!<br><span>Brand New Sleeping Bags</span></h2>
+                                                    <a href="#" class="primary-button">Shop Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="left">
+                        <div class="dpt-cat">
+                            <div class="dpt-head">
+                                <div class="main-text">All Departements</div>
+                                <div class="mini-text mobile-hide">Total 1059 Produtcs</div>
+                                <a href="#" class="dpt-trigger mobile-hide">
+                                    <i class="fa-solid fa-bars"></i>
+                                </a>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="dpt-menu">
+                                <ul class="second-links">
+                                    <li class="has-child equipment">
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-tents"></i></div>
+                                            <span>Equipment </span>
+                                            <div class="icon-small"><i class="fa-solid fa-chevron-down"></i></div>
+                                        </a>
+                                        <ul>
+                                            <li><a href="#">Bag Cover</a></li>
+                                            <li><a href="#">Chair</a></li>
+                                            <li><a href="#">Climbing Equipment</a></li>
+                                            <li><a href="#">Compass</a></li>
+                                            <li><a href="#">Gloves</a></li>
+                                            <li><a href="#">Hammock</a></li>
+                                            <li><a href="#">Insect Protection</a></li>
+                                            <li><a href="#">Kitchenware</a></li>
+                                            <li><a href="#">Lighting Equipment</a></li>
+                                            <li><a href="#">Mat & Cot</a></li>
+                                            <li><a href="#">Pillow</a></li>
+                                            <li><a href="#">Pole</a></li>
+                                            <li><a href="#">Sleeping Bag</a></li>
+                                            <li><a href="# ">Storage</a></li>
+
+
+                                        </ul>
+                                    </li>
+                                    <li class="has-child Apparel">
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-brands fa-shopify"></i></div>
+                                            Apparel
+                                            <div class="icon-small"><i class="fa-solid fa-chevron-down"></i></div>
+                                        </a>
+                                        <ul>
+                                            <li><a href="#">Jacket</a></li>
+                                            <li><a href="#">Pants</a></li>
+                                            <li><a href="#">Shorts</a></li>
+                                            <li><a href="#">Top</a></li>
+                                            <li><a href="#">Baselayer</a></li>
+                                            <li><a href="#">Rainwear</a></li>
+                                            <li><a href="#">Sweater</a></li>
+                                            <li><a href="#">Vest</a></li>
+                                            <li><a href="#">Underwear</a></li>
+                                            <li><a href="#">Safety Coverall</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-child Bags">
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-briefcase"></i></div>
+                                            Bags
+                                            <div class="icon-small"><i class="fa-solid fa-chevron-down"></i></div>
+                                        </a>
+                                        <ul>
+                                            <li><a href="#">Backpack</a></li>
+                                            <li><a href="#">Shoulder Bag</a></li>
+                                            <li><a href="#">Cases</a></li>
+                                            <li><a href="#">Cycling Bag</a></li>
+                                            <li><a href="#">Duffle</a></li>
+                                            <li><a href="#">Pouch</a></li>
+                                            <li><a href="#">Waist Bag</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-child Footwear">
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-sharp fa-solid fa-socks"></i></div>
+                                            Footwear
+                                            <div class="icon-small"><i class="fa-solid fa-chevron-down"></i></div>
+                                        </a>
+                                        <ul>
+                                            <li><a href="#">Sandal</a></li>
+                                            <li><a href="#">Shoes</a></li>
+                                            <li><a href="#">Boots</a></li>
+                                            <li><a href="#">Sock</a></li>
+                                            <li><a href="#">Sandal Eiger</a></li>
+                                            <li><a href="#">Shoelace</a></li>
+                                            <li><a href="#">Gaiter</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-child Headwear">
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-hat-cowboy-side"></i></div>
+                                            Headwear
+                                            <div class="icon-small"><i class="fa-solid fa-chevron-down"></i></div>
+                                        </a>
+                                        <ul>
+                                            <li><a href="#">Bandana</a></li>
+                                            <li><a href="#">Bands</a></li>
+                                            <li><a href="#">Beanies</a></li>
+                                            <li><a href="#">Caps</a></li>
+                                            <li><a href="#">Hats</a></li>
+                                            <li><a href="#">Hijab</a></li>
+                                            <li><a href="#">Face Shield</a></li>
+                                            <li><a href="#">Masker</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-child Accessories">
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-mitten"></i></div>
+                                            Accessories
+                                            <div class="icon-small"><i class="fa-solid fa-chevron-down"></i></div>
+                                        </a>
+                                        <ul>
+                                            <li><a href="#">Belts</a></li>
+                                            <li><a href="#">Chain Accessories</a></li>
+                                            <li><a href="#">Gadget Accessories</a></li>
+                                            <li><a href="#">Jewerly</a></li>
+                                            <li><a href="#">Sunglasses</a></li>
+                                            <li><a href="#">Travel Accessories</a></li>
+                                            <li><a href="#">Wallet</a></li>
+                                            <li><a href="#">Watches</a></li>
+                                            <li><a href="#">Bands</a></li>
+                                            <li><a href="#">Manset</a></li>
+                                            <li><a href="#">Masker Strap</a></li>
+                                            <li><a href="#">Music Album</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-person-hiking"></i></div>
+                                            Men's Wear
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-person-dress"></i></div>
+                                            Women's Wear
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-child"></i></div>
+                                            Boys Wear
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-person-walking-luggage"></i>
+                                            </div>
+                                            Girls Wear
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-stethoscope"></i></div>
+                                            Medicine & Safety
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-user-tie"></i></div>
+                                            Newest Products
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="icon-large"><i class="fa-solid fa-dollar-sign"></i></div>
+                                            Best Seller
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rights">
+                        <div class="search-box">
+                            <form action="" class="search">
+                                <span class="icon-large"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="search" placeholder="Search For Products">
+                                <button type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Slider Section -->
+
+        <div class="slider">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="myslider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="/img/categories/slider4.jpg" alt="">
+                                    </div>
+                                    <div class="text-content flexcol hikings-item">
+                                        <h4>Hiking Footwear</h4>
+                                        <h2>Come and Get it!<br><span>Brand New Footwear</span></h2>
+                                        <a href="#" class="primary-button">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="/img/categories/slider2.jpg" alt="">
+                                    </div>
+                                    <div class="text-content flexcol">
+                                        <h4>Hiking Bags</h4>
+                                        <h2>Come and Get it!<br><span>Brand New Bags</span></h2>
+                                        <a href="#" class="primary-button">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="/img/categories/slider7.jpg" alt="">
+                                    </div>
+                                    <div class="text-content flexcol">
+                                        <h4>Hiking Equipments</h4>
+                                        <h2>Come and Get it!<br><span>Brand New Equipments</span></h2>
+                                        <a href="#" class="primary-button">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="image object-cover">
+                                        <img src="/img/categories/slider5.jpg" alt="">
+                                    </div>
+                                    <div class="text-content flexcol">
+                                        <h4>Sleeping Bags</h4>
+                                        <h2>Come and Get it!<br><span>Brand New Sleeping Bags</span></h2>
+                                        <a href="#" class="primary-button">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slider Section -->
+    <!-- END MAIN MOUNTAINEERING MENU SECTION -->
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col1">
+                    <div class="footer__logo">
+                        <img src="./img/logo/HanssIndustries1.png" alt="HanssIndustries1">
+                    </div>
+                    <p class="footer__desc">
+                        "It's not the mountain we conquer, but ourselves."
+                    </p>
+                    <div class="footer__socials">
+                        <h4 class="footer__socials__title">Follow Us</h4>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__col2">
+                    <h3 class="footer__text__title">
+                        Links
+                    </h3>
+                    <ul class="footer__Text">
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./mountaineering.html">Mountaineering</a>
+                        </li>
+                        <li>
+                            <a href="./index.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="./index.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="./myaccount.html">My Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col3">
+                    <h3 class="footer__text__title">
+                        Support
+                    </h3>
+                    <ul class="footer__Text">
+                        <li>
+                            <a href="./index.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col4">
+                    <h3 class="footer__text__title">
+                        Contact
+                    </h3>
+                    <ul class="footer__Text">
+                        <li>
+                            <a href="#">+62 546 467 8373</a>
+                        </li>
+                        <li>
+                            <a href="#">hanssindustriesofficial@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#">Jl.Pesantren, Cimahi, Jawa Barat, Indonesia.</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="copyright">
+        <p class="copyright__text">
+            © copyright 2022 Hanss Industries | All rights reserved
+        </p>
+    </div>
+
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- END Swiper js -->
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- END ionicon link -->
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- fungsi untuk swipe menu buat hp -->
+    <!--        Data.js      -->
+    <script src="./data.js"></script>
+    <!--        END Data.js      -->
+    <!--        Data.js      -->
+    <script src="./script.js"></script>
+    <!--        END Data.js      -->
+
+</body>
+
+</html>
